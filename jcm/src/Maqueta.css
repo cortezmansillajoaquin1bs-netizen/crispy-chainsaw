@@ -1,0 +1,35 @@
+.padre{
+    background-color: cadetblue;
+    display: grid;
+    grid-gap:5px;
+    grid-template-columns:1fr 2fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-template-areas:"c1 c1 c1"
+                         "c2 c3 c4"
+                         "c5 c5 c5";
+}
+.c1{
+    color:black;
+    background-color:yellow;
+    grid-area:c1;
+}
+.c2{
+    color:green;
+    background-color:brown;
+    grid-area:c2;
+}
+.c3{
+    color:wheat;
+    background-color:purple;
+    grid-area:c3;
+}
+.c4{
+    color:wheat;
+    background-color:palevioletred;
+    grid-area:c4;
+}
+.c5{
+    color:blue;
+    background-color:green;
+    grid-area:c5;
+}

@@ -1,0 +1,11 @@
+ul{
+    list-style:none;
+}
+li{
+    background-color: cadetblue;
+    margin:5px;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+}
